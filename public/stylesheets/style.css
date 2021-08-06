@@ -1,0 +1,40 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00b7ff;
+}
+body {
+    background-color: #bdd0ce;
+}
+.container-fluid {
+    min-height: 85vh;
+}
+
+.selector,
+#create,
+#info {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 3%;
+}
+.row {
+    margin: 1%;
+    width: 100%;
+}
+
+button {
+    min-width: 8vw;
+    margin: 2%;
+}
+
+h1 {
+    padding-top: 1rem;
+}
+
+.row > div {
+    padding: 0.5rem;
+}

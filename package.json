@@ -1,0 +1,32 @@
+{
+    "name": "express-passport-react",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "nodemon ./bin/www",
+        "heroku-postbuild": "cd front && yarn install && yarn run build"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "connect-ensure-login": "^0.1.1",
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "dotenv": "^8.2.0",
+        "ejs": "~2.6.1",
+        "express": "~4.16.1",
+        "express-session": "^1.17.0",
+        "http-errors": "~1.6.3",
+        "mongodb": "^3.5.5",
+        "morgan": "~1.9.1",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0",
+        "nodemon": "^2.0.2",
+        "react-router-dom": "^5.1.2"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.10.1",
+        "eslint-plugin-react": "^7.19.0",
+        "prettier": "^2.0.2"
+    }
+}
